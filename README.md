@@ -30,13 +30,15 @@ flv.js is written in [ECMAScript 6][], transpiled into ECMAScript 5 by [Babel Co
 ## Installation
 ```bash
 npm install --save flv.js
+或者
+git clone 
 ```
 
 ## Build
 ```bash
-npm install          # install dev-dependences
-npm install -g gulp  # install build tool
-gulp release         # packaged & minimized js will be emitted in dist folder
+sudo npm install          # install dev-dependences
+sudo npm install -g gulp  # install build tool
+gulp release         # packaged & minimized js will be emitted in dist folder,如果出现/usr/bin/env: "node": 没有那个文件或目录，sudo ln -s /usr/bin/nodejs /usr/bin/node
 ```
 
 [cnpm](https://github.com/cnpm/cnpm) mirror is recommended if you are in Mainland China.
